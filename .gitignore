@@ -1,0 +1,22 @@
+# крупные / служебные каталоги — не в репозиторий
+Ethereum Phishing Transaction Network/
+archive/
+slides/
+.tools/
+.claude/
+__pycache__/
+*.pyc
+
+# тексты работы, документы, презентации (по требованию — не публикуем)
+*.docx
+*.pdf
+content.py
+build_coursework.py
+
+# прочие .md, кроме README
+*.md
+!README.md
+
+# мусор macOS / Word
+.DS_Store
+~$*
