@@ -27,7 +27,7 @@ python3 evaluate.py        # массовый прогон ILP/SA/PI-GNN -> resu
 python3 summarize.py       # агрегаты RQ2-RQ4
 ```
 Исходный граф `MulDiGraph.pkl` (XBlock, ~1.2 ГБ) в репозиторий не включён; он нужен только для
-пере-сборки `eth_instances.pkl`.
+пересборки `eth_instances.pkl`.
 
 **Зависимости:** torch 2.2, dgl 1.1.3, numpy 1.26, networkx, pulp (+CBC), dimod + dwave-neal,
 pandas, plotly, kaleido, matplotlib.
